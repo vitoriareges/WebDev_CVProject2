@@ -1,0 +1,87 @@
+/*Style of CV page*/
+
+body {
+    background-color: beige
+}
+
+h1 {
+    text-align: center;
+    font-family: calibri;
+    border-image: fill;
+    background-color: beige;
+}
+
+h2 {
+    text-align: center;
+    font-family: Gill sans;
+    color: blue;
+    background-color: beige;
+}
+
+h3 {
+    text-align: left;
+    text-justify: auto;
+    font-family: calibri;
+    color: cornflowerblue;
+    background-color: beige;
+}
+
+h4 {
+    text-align: left;
+    text-justify: auto;
+    font-family: calibri;
+    color: cornflowerblue;
+    background-color: beige;
+}
+
+p {
+    text-align: left;
+    text-justify: auto;
+    font-family: calibri;
+    color: cornflowerblue;
+    background-color: beige;
+}
+
+img {
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(154, 160, 207);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: navy;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.button {
+    background-color: rgb(218, 222, 236);
+    border: none;
+    color: navy;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
